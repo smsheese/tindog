@@ -1,0 +1,203 @@
+/* Site Mains */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Title Section */
+#title {
+  background-color: #ff4c68;
+  color: white
+}
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.image-title {
+  margin-left: 15%;
+  width: 70%;
+  transform: rotate(25deg);
+  margin-bottom: -50%;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 5% 7%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features-info {
+  text-align: center;
+  padding: 5%;
+}
+
+.features-head {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+.features-icons {
+  font-size: 4.5rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+.test-row {
+  padding: 3% 10%;
+}
+
+.testimonial-brands {
+  height: 100%;
+  padding: 5%;
+}
+
+.testimonial-text {
+  color: white;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15% 7%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 3%;
+  text-align: center;
+}
+
+.h2text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: black;
+}
+
+.h3text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: black;
+}
+
+.card-row {
+  margin: 5% 3%;
+}
+
+.card {
+  margin: 5% 0;
+}
+
+/* CTA Section */
+#cta {
+  padding: 5%;
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+}
+
+.btn-cta {
+  margin: 1%;
+}
+
+/* Footer Section */
+#footer {
+  margin: 10%;
+  text-align: center;
+}
+
+.ft-ico {
+  margin: 2%;
+  font-size: 1.25rem;
+}
+
+.ft-p {
+  color: grey;
+  font-size: 1.15rem;
+}
+
+/* Media Query */
+@media (max-width: 1080px) {
+  #title {
+    text-align: center;
+  }
+
+  .image-title {
+    margin-left: 0;
+    width: 60%;
+    transform: rotate(0);
+    margin-bottom: 0;
+  }
+
+  #features {
+    padding: 1%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+  }
+}
