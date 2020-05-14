@@ -77,6 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .features-p {
   color: #8f8f8f;
+  font-size: 1.25rem;
 }
 
 .features-icons {
@@ -115,6 +116,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
   font-size: 2rem;
   line-height: 1.5;
+}
+
+.test-name {
+  color: #fff;
+  font-size: 1.15rem;
 }
 
 .carousel-item {
@@ -183,16 +189,31 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Media Query */
 @media (max-width: 1080px) {
+  .container-fluid {
+    padding: 3% 5%;
+  }
+
   #title {
     text-align: center;
   }
 
+  .big-heading {
+    font-size: 5rem;
+  }
+
+
   .image-title {
     margin-left: 0;
-    width: 60%;
+    width: 70%;
     transform: rotate(0);
     margin-bottom: 0;
   }
+
+  .download-button {
+    margin: 5%;
+    font-size: 200%;
+  }
+
 
   #features {
     padding: 1%;
@@ -200,4 +221,59 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     z-index: 1;
   }
+
+  .features-head {
+    font-size: 2.5rem;
+  }
+
+  .features-p {
+    font-size: 1.5rem;
+  }
+
+  .features-icons {
+    font-size: 7.5rem;
+  }
+
+  .testimonial-text {
+    font-size: 3.5rem;
+  }
+
+  .test-name {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-image {
+    width: 40%;
+  }
+
+  .h2text {
+    font-size: 3.5rem;
+  }
+
+  .price-p {
+    font-size: 1.8rem;
+  }
+
+  .h3text {
+    font-size: 4rem;
+  }
+
+  .btn-block {
+    font-size: 2rem;
+  }
+
+  .btn-cta {
+    margin: 5%;
+    font-size: 2.5rem;
+  }
+
+  .ft-ico {
+    margin: 7%;
+    font-size: 1.8rem;
+  }
+
+  .ft-p {
+    font-size: 1.7rem;
+  }
+
 }
