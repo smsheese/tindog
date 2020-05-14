@@ -193,6 +193,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3% 5%;
   }
 
+  .navbar-brand {
+    font-size: 3.5rem;
+  }
+
+  .nav-link {
+    font-size: 1.65rem;
+  }
+
+
   #title {
     text-align: center;
   }
@@ -221,15 +230,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .features-head {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   .features-p {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .features-icons {
-    font-size: 7.5rem;
+    font-size: 8rem;
   }
 
   .testimonial-text {
@@ -237,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .test-name {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .testimonial-image {
@@ -250,11 +259,16 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .price-p {
-    font-size: 1.8rem;
+    font-size: 2.25rem;
+  }
+
+  .h2text {
+    font-size: 4rem;
+    color: #ff4c68;
   }
 
   .h3text {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .btn-block {
@@ -268,10 +282,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .ft-ico {
     margin: 7%;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
   }
 
   .ft-p {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 }
